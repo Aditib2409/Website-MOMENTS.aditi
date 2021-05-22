@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+		<title>Moments</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-aw
+		esome/4.7.0/css/font-awesome.css">
+	
+	</head>
+	
+	<body>
+		<section class="field2">
+			<nav>
+				<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+		
+			<h1>CONTACT</h1>
+		</section>
+<!--------- CONTACT content ------->	
+		<section class="contact">
+			<div class="row">
+				<div class="contact-col">
+					<form action="">
+						<input type="text" placeholder="Name" required>
+						<input type="email" placeholder="Email Address" required>
+						<input type="text" placeholder="Subject" required>
+						<textarea rows="8" placeholder="What's Up?" required></textarea>
+						<button type="submit" class="hero-btn-black">SUBMIT</button>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+
+<!-------- icons ------->
+		<section class="footer">
+			<div class="icons">
+			  <td>
+				<a style="color:#fff;" href="#"><i class="fa fa-instagram"></i></a>
+				<a style="padding-left:25px; color: #fff;" href="#"><i class="fa fa-envelope-o"></i></a>
+			  </td>
+			</div>
+		</section>
+				
+		
+		
+		
+<!--------- JavaScript for Toggle Menu -------->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+			
+		</script>
+		
+		
+		
+	</body>
+	
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"> 
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0"/>
+		<title>Moments</title>
+		<link rel="stylesheet" href="style.css"></link>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-aw
+		esome/4.7.0/css/font-awesome.css">
+	
+	</head>
+	
+	<body>
+		<section class="field2">
+			<nav>
+				<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
+				</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+		
+			<h1>INTRODUCTION</h1>
+		</section>
+<!--------- INTRODUCTION content ------->	
+		<section class="class="intro">
+		
+			<div class="row">
+				<div class="intro-col1">
+					<img src="images/me.jpg">			
+				</div>
+				<div class="intro-col2">
+					<p>I am Aditi Bodhankar, from India.
+					Angkor Wat is a temple at Angkor, Cambodia, 
+					built in the capital city for King Suryavarman 
+					II in the early 12th century as the state temple. 
+					The largest and best-preserved temple at the site, 
+					it is the only one to have remained a significant
+					religious center—first Hindu, then Buddhist—since 
+					its foundation. </p>
+				</div>
+					
+			</div>
+
+		</section>
+
+<!-------- icons ------->
+		<section class="footer">
+			<div class="icons">
+			  <td>
+				<a style="color:#fff;" href="#"><i class="fa fa-instagram"></i></a>
+				<a style="padding-left:25px; color: #fff;" href="#"><i class="fa fa-envelope-o"></i></a>
+			  </td>
+			</div>
+		</section>
+				
+		
+		
+		
+<!--------- JavaScript for Toggle Menu -------->
+		<script>
+			var navLinks = document.getElementById("navLinks");
+			function showMenu(){
+				navLinks.style.right = "0";
+			}
+			function hideMenu(){
+				navLinks.style.right = "-200px";
+			}
+			
+		</script>
+		
+		
+		
+	</body>
+	
+
+</html>
